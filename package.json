@@ -1,0 +1,13 @@
+{
+  "name": "covidnode",
+  "version": "1.0.0",
+  "description": "covid tracker node backend server",
+  "main": "index.js",
+  "scripts": {
+    "build" : "nest build && cp ./src/countryDataFiles ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Evans",
+  "license": "ISC",
+  "dependencies": {}
+}
